@@ -9,13 +9,14 @@
   width: 100%;
 
   background-color: #262626;
-  box-shadow: 0px 1px 2px #888;
+  box-shadow: 0px 2px 2px #ccc;
 }
 
 #nav {
   width: 97%;
   margin: 0 auto;
   color: white;
+  position: relative;
 }
 
 #nav div, #nav button {
@@ -33,29 +34,6 @@
   margin-top: 5px;
 }
 
-#nav input[type=text] {
-  width: 710px;
-  border-radius: 5px;
-}
-
-#signUp {
-  display: inline-block;
-  width: 70px;
-  height: 30px;
-  border-radius: 4px;
-  background: #ff4f01;
-  color: white;
-}
-
-
-/*.link {
-  height: 45px;
-  color: #eee;
-  text-align: center;
-  border: 1px solid blue;
-  line-height: 45px;
-}*/
-
 
 #logo {
   display: inline-block;
@@ -68,4 +46,12 @@
   background-size: 80px 50px;
   background-repeat: no-repeat;
   background-position: center;
+}
+
+.navigation {
+  height: 49px;
+  width: 1100px;
+  position: absolute;
+  top: -2px;
+  left: 90px;
 }
