@@ -1,0 +1,11 @@
+/* Styles */
+
+/* Grid*/
+body {
+  background-color: #F2F2F2;
+}
+
+.container {
+  width: 98%;
+  margin: 0 auto;
+}
