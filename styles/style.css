@@ -56,33 +56,12 @@
   line-height: 45px;
 }*/
 
-/* Header Styles */
-
-#nav {
-  text-align: left;
-  margin-right: 15px;
-  height: 45px;
-  line-height: 45px;
-  position: relative;
-}
-
-#nav ul {
-  list-style-type: none;
-}
-
-#nav li {
-  display: inline;
-  padding-left: 10px;
-}
-
-#nav li a {
-  color: white;
-}
 
 #logo {
   display: inline-block;
   height: 45px;
   width: 85px;
+  margin: 0;
 
   background: url(https://a-v2.sndcdn.com/assets/images/header/logo@2x-3a4e31.png);
   background-color: #ff4f01;
