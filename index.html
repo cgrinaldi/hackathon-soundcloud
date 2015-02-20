@@ -9,6 +9,10 @@
     <!-- Bootstrap -->
     <link href="lib/css/bootstrap.min.css" rel="stylesheet">
     <link href="styles/style.css" rel="stylesheet">
+    <link href="styles/main.css" rel="stylesheet">
+
+    <!-- Fonts -->
+    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -20,7 +24,36 @@
   <body>
     <div class="container">
       <div class="row">
-        <div class="col-md-8">test</div>
+        <div class="col-md-8 col-bg">
+          <div class="nav">
+            <ul class="list-unstyled list-inline link-border">
+              <li class="link active">Stream</li>
+              <li class="link">Explore</li>
+            </ul>
+          </div>
+          <div>
+            <div class="pull-left muted">Hear what's up-and-coming on SoundCloud</div>
+            <div class="pull-right">
+              <form>
+                <span class="category">Category:</span>
+                <button class="categoryButton">Trending Music</button>
+              </form>
+            </div>
+          </div>
+          <div>
+            <img src="images/song.png">
+          </div>
+          <div>
+            <button class="metaButton"><i class="fa fa-heart"></i> Like</button>
+            <button class="metaButton"><i class="fa fa-retweet"></i> Repost</button>
+            <button class="metaButton"><i class="fa fa-list"></i> Add to playlist</button>
+            <button class="metaButton"><i class="fa fa-share-square-o"></i> Share</button>
+            <span class="metaText"><i class="fa fa-play"></i> 12,345,678</span>
+            <span class="metaText"><i class="fa fa-heart"></i> 481K</span>
+            <span class="metaText"><i class="fa fa-retweet"></i> 86K</span>
+            <span class="metaText"><i class="fa fa-comment"></i> 5K</span>
+          </div>
+        </div>
         <div class="col-md-4">test</div>
       </div>
     </div>
