@@ -12,7 +12,6 @@
   box-shadow: 0px 2px 2px #ccc;
 }
 
-<<<<<<< HEAD
 #nav {
   width: 97%;
   margin: 0 auto;
@@ -55,4 +54,5 @@
   position: absolute;
   top: -2px;
   left: 90px;
+  margin: 0;
 }
